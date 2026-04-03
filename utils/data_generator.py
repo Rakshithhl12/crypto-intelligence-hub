@@ -126,4 +126,3 @@ def get_all_coins_snapshot() -> pd.DataFrame:
             "color": info["color"],
         })
     return pd.DataFrame(rows)
-
